@@ -1,4 +1,4 @@
 import pandas as pd
 import streamlit as st
 df = pd.read_csv('estadosdemexico.csv')
-st.dataframe(df, 200, 500)
+st.dataframe(df)
